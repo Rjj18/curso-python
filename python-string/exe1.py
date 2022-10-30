@@ -9,7 +9,6 @@ Original file is located at
 
 L = "AABBEFAAT"
 R = "BE"
-
-a = L.find(R)
+a = L.find(R) ##Variável com o resultado da procura de "BE" em L.
 
 print(f"{R} encontrado na posição {a:{0}} de {L}")
