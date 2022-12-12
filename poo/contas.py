@@ -1,10 +1,10 @@
 class Conta:
     def __init__(self, clientes, numero, saldo=0):
+        self.saldo = saldo
         self.clientes = clientes
         self.numero = numero
-        self.saldo = saldo
         self.operacoes = []
-        self.deposito (saldo)
+        self.deposito(saldo)
 
         def resumo(self):
             print(f'CC Numero: {self.numero} Saldo: {self.saldo:10.2f}')
